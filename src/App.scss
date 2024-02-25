@@ -1,0 +1,33 @@
+body {
+  background-color: #222;
+  overflow-x: hidden;
+  font-family: "Poppins";
+}
+main {
+  background-color: rgb(66, 139, 190);
+  max-width: 1050px;
+  margin: 10px auto;
+  border-radius: 1.1ex;
+  padding: 10px;
+  border: 2px dotted goldenrod;
+}
+
+.main-container {
+  h1.main-title {
+    color: aliceblue;
+    text-align: center;
+  }
+  p.how-to-use {
+    text-align: center;
+    margin: 10px auto;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    max-width: 600px;
+    span {
+      font-size: 22px;
+      font-weight: 700;
+      color: #ff8307;
+    }
+  }
+}
